@@ -141,16 +141,6 @@ li {
 }
 /* section about */
 .visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  overflow: hidden;
 }
 .about {
   padding-top: 120px;
@@ -170,7 +160,7 @@ li {
   font-weight: 500;
   margin-bottom: 8px;
 }
-.bout-list-item {
+.about-list-item {
   width: calc((100% - 72px) / 4);
 }
 .team-title {
