@@ -26,6 +26,7 @@ li {
   background-color: #fff;
   border-bottom: 1px solid #e7e9fc;
 }
+
 .header-logo {
   color: #4d5ae5;
   text-decoration: none;
@@ -99,8 +100,10 @@ li {
   font-style: normal;
 }
 /* section hero */
-.hero {
+.hero-container {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-title {
   background-color: #2e2f42;
@@ -110,6 +113,8 @@ li {
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  max-width: 496px;
+  margin: auto;
 }
 .hero button {
   color: #ffffff;
@@ -118,6 +123,12 @@ li {
   letter-spacing: 0.04em;
   background: #4d5ae5;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  border: none;
+  height: 56px;
+  border-radius: 4px;
+  margin: auto;
 }
 .hero button:hover,
 .hero button:focus {
