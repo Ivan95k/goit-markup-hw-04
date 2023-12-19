@@ -100,6 +100,9 @@ li {
   font-style: normal;
 }
 /* section hero */
+.hero {
+  padding: 188 0 188;
+}
 .hero-container {
   background-color: #2e2f42;
   padding-top: 188px;
