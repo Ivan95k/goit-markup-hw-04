@@ -171,6 +171,9 @@ li {
   font-weight: 500;
   margin-bottom: 8px;
 }
+.about-list-item {
+  width: calc((100% - 72px) / 4);
+}
 
 .team-title {
   color: #2e2f42;
@@ -191,9 +194,6 @@ li {
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
-}
-.team-list-item {
-  width: calc((100% - 72px) / 4);
 }
 /* section team */
 
