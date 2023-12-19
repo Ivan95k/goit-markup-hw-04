@@ -173,6 +173,7 @@ li {
 .about-list-item {
   width: calc((100% - 72px) / 4);
 }
+
 .team-title {
   color: #2e2f42;
   text-align: center;
