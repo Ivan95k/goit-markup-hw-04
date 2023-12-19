@@ -114,6 +114,7 @@ li {
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 188 0 188;
   margin: auto;
 }
 .hero button {
