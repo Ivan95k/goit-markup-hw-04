@@ -24,6 +24,7 @@ li {
 }
 .header {
   background-color: #fff;
+  border-bottom: 1px solid #e7e9fc;
 }
 .header-logo {
   color: #4d5ae5;
@@ -42,7 +43,6 @@ li {
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid #e7e9fc;
 }
 .header-nav {
   display: flex;
