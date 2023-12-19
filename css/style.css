@@ -101,7 +101,8 @@ li {
 }
 /* section hero */
 .hero {
-  padding: 188 0 188;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-container {
   background-color: #2e2f42;
@@ -152,7 +153,8 @@ li {
   overflow: hidden;
 }
 .about {
-  padding: 120 0 120;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .about-list {
   color: #2e2f42;
