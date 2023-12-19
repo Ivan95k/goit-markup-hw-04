@@ -169,7 +169,6 @@ li {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 8px;
 }
 .about-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
