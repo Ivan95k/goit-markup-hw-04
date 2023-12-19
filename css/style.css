@@ -164,13 +164,13 @@ li {
   letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
+  align-items: flex-start;
 }
 .subtitle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
 }
 
 .team-title {
