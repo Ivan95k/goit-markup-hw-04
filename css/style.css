@@ -218,13 +218,19 @@ li {
 }
 .team-list-item {
   background: #fff;
+  border-radius: 0px 0px 4px 4px;
 }
 .item-title {
   letter-spacing: 0.02em;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-item-text {
   letter-spacing: 0.02em;
-  padding-top: 8px;
+  text-align: center;
+}
+.team-wrap {
+  padding-top: 32px;
   padding-bottom: 32px;
 }
 /* Section project */
@@ -240,6 +246,7 @@ li {
 /* footer */
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
 }
 
 .footer-logo {
@@ -251,6 +258,8 @@ li {
   font-size: 18px;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo span {
   color: #f4f4fd;
