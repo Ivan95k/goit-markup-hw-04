@@ -19,6 +19,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
 li {
   list-style-type: none;
 }
@@ -108,12 +109,9 @@ li {
 .hero {
   padding-top: 188px;
   padding-bottom: 188px;
-}
-.hero-container {
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
+
 .hero-title {
   background-color: #2e2f42;
   color: #ffffff;
@@ -153,8 +151,8 @@ li {
   border: 0;
   padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
   overflow: hidden;
 }
 
@@ -165,19 +163,17 @@ li {
 .about-list {
   color: #2e2f42;
   font-size: 20px;
-
   letter-spacing: 0.02em;
   display: flex;
   gap: 24px;
+  padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-left: 0;
 }
 .subtitle {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  margin-bottom: 8px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -237,7 +233,6 @@ li {
 }
 .item-title {
   letter-spacing: 0.02em;
-  text-align: center;
   margin-top: 0;
   margin-bottom: 0;
 }
