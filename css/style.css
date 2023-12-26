@@ -101,6 +101,10 @@ li {
   height: 4px;
   border-radius: 2px;
   background-color: #404bbf;
+  position: relative;
+}
+.header-item-link.active {
+  color: #404bbf;
 }
 .nav-adress-link:last-child {
   margin-right: 0px;
