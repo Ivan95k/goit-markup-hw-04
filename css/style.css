@@ -387,6 +387,7 @@ li {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-logo-wrapper {
   margin-right: 120px;
@@ -413,13 +414,20 @@ li {
   width: 264px;
 }
 .footer-text-media {
-  color: #f4f4fd;
+  color: #ffffff;
   width: 100%;
   display: block;
   margin-top: 0;
   margin-bottom: 0;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 .socials {
-  margin-top: 16px;
+  margin-top: 0px;
   margin-bottom: 0;
+  gap: 16px;
+}
+.socials-link:hover,
+.socials-link:focus {
+  background-color: #31d0aa;
 }
