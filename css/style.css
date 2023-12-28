@@ -423,10 +423,17 @@ li {
   margin-bottom: 16px;
 }
 .footer-socials {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0;
+  gap: 16px;
+}
+.footer-socials-item {
   display: flex;
   margin-top: 0px;
   margin-bottom: 0;
   gap: 16px;
+  padding-left: 0;
 }
 .footer-socials-link {
   width: 100%;
