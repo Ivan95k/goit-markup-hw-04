@@ -422,12 +422,12 @@ li {
   font-weight: 500;
   margin-bottom: 16px;
 }
-.socials {
+.footer-socials {
   margin-top: 0px;
   margin-bottom: 0;
   gap: 16px;
 }
-.socials-link:hover,
-.socials-link:focus {
+.footer-socials-link:hover,
+.footer-socials-link:focus {
   background-color: #31d0aa;
 }
