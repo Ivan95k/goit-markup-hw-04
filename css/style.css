@@ -385,7 +385,12 @@ li {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-
+.footer-container {
+  display: flex;
+}
+.footer-logo-wrapper {
+  margin-right: 120px;
+}
 .footer-logo {
   color: #4d5ae5;
   text-decoration: none;
@@ -409,11 +414,12 @@ li {
 }
 .footer-text-media {
   color: #f4f4fd;
-  padding-left: 540px;
+  width: 100%;
+  display: block;
   margin-top: 0;
   margin-bottom: 0;
 }
-.footer-socials {
-  margin-top: 0;
+.socials {
+  margin-top: 16px;
   margin-bottom: 0;
 }
